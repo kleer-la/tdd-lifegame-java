@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/.svn/*" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="com.springsource.server.ide.jdt.core.test.classpathentry" value="false"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**/.svn/*" kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="com.springsource.server.ide.jdt.core.test.classpathentry" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.springsource.server.ide.jdt.core.MANIFEST_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
